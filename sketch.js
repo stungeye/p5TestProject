@@ -11,7 +11,6 @@ function setup() {
   createCanvas(300, 500);
   fill("green");
   m = new Mover(width / 2, height / 2);
-  console.log("THIS IS A TEST");
 }
 
 function draw() {

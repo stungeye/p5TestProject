@@ -5,6 +5,9 @@ class Mover {
   }
 
   draw() {
+    push();
+    fill("blue");
     circle(this.x, this.y, 30);
+    pop();
   }
 }
